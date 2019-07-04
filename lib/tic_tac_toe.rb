@@ -85,6 +85,10 @@ def full?
   end
 end
 
+# def full?
+#     @board.all?{|square| square != " " }
+#   end
+  
 def draw?
  !won? && full?
 end
